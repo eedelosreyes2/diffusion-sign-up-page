@@ -13,7 +13,7 @@
 h1 {
   display: block;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 900px;
 }
 
 h3 {
@@ -41,6 +41,12 @@ button {
   width: 90vw;
 }
 
+@media only screen and (min-width: 992px) {
+  .hero {
+    width: 60vw;
+  }
+}
+
 .logo-animated {
   height: 100%;
   width: 300px;
@@ -48,7 +54,7 @@ button {
   animation-duration: 2s;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  margin: 0 auto 0 auto;
+  margin: 100px auto 0 auto;
   transform-origin: bottom;
 }
 
@@ -61,7 +67,7 @@ button {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
   100% {
     transform: translateY(0);

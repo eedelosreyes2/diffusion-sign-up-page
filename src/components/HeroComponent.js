@@ -42,10 +42,11 @@ export default class HeroComponent extends Component {
             </Switch>
           </Router>
         </div>
+
         <img
           src={window.location.href + "favicon.ico"}
           alt="diffusion-logo-animated"
-          className="logo-animated bounce"
+          className="logo-animated bounce-1"
         />
       </div>
     );
