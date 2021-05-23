@@ -37,7 +37,9 @@ export default class HeroComponent extends Component {
             </Link>
             <Switch>
               <Route path="/form">
-                <ReactTypeformEmbed url="https://hjv8msq3gnt.typeform.com/to/Gdq3kNQl" />
+                <div style={{ zIndex: "10", backgroundColor: "red" }}>
+                  <ReactTypeformEmbed url="https://hjv8msq3gnt.typeform.com/to/Gdq3kNQl" />
+                </div>
               </Route>
             </Switch>
           </Router>
@@ -46,7 +48,7 @@ export default class HeroComponent extends Component {
         <img
           src={window.location.href + "favicon.ico"}
           alt="diffusion-logo-animated"
-          className="logo-animated bounce-1"
+          className={"logo-animated bounce-1"}
         />
       </div>
     );
