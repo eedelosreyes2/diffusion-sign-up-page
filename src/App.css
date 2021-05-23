@@ -12,7 +12,7 @@
 
 h1 {
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -39,4 +39,31 @@ button {
   margin: auto;
   text-align: left;
   width: 90vw;
+}
+
+.logo-animated {
+  height: 100%;
+  width: 300px;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
