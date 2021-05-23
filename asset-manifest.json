@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/diffusion-sign-up-page/static/css/main.b9b85d45.chunk.css",
-    "main.js": "/diffusion-sign-up-page/static/js/main.3e550e00.chunk.js",
-    "main.js.map": "/diffusion-sign-up-page/static/js/main.3e550e00.chunk.js.map",
-    "runtime-main.js": "/diffusion-sign-up-page/static/js/runtime-main.e3c4f14e.js",
-    "runtime-main.js.map": "/diffusion-sign-up-page/static/js/runtime-main.e3c4f14e.js.map",
-    "static/js/2.8352457c.chunk.js": "/diffusion-sign-up-page/static/js/2.8352457c.chunk.js",
-    "static/js/2.8352457c.chunk.js.map": "/diffusion-sign-up-page/static/js/2.8352457c.chunk.js.map",
-    "static/js/3.0e8e75d3.chunk.js": "/diffusion-sign-up-page/static/js/3.0e8e75d3.chunk.js",
-    "static/js/3.0e8e75d3.chunk.js.map": "/diffusion-sign-up-page/static/js/3.0e8e75d3.chunk.js.map",
-    "index.html": "/diffusion-sign-up-page/index.html",
-    "static/css/main.b9b85d45.chunk.css.map": "/diffusion-sign-up-page/static/css/main.b9b85d45.chunk.css.map",
-    "static/js/2.8352457c.chunk.js.LICENSE.txt": "/diffusion-sign-up-page/static/js/2.8352457c.chunk.js.LICENSE.txt"
+    "main.css": "/diffusion.me/static/css/main.c7ed2507.chunk.css",
+    "main.js": "/diffusion.me/static/js/main.3e550e00.chunk.js",
+    "main.js.map": "/diffusion.me/static/js/main.3e550e00.chunk.js.map",
+    "runtime-main.js": "/diffusion.me/static/js/runtime-main.2927e615.js",
+    "runtime-main.js.map": "/diffusion.me/static/js/runtime-main.2927e615.js.map",
+    "static/js/2.8352457c.chunk.js": "/diffusion.me/static/js/2.8352457c.chunk.js",
+    "static/js/2.8352457c.chunk.js.map": "/diffusion.me/static/js/2.8352457c.chunk.js.map",
+    "static/js/3.0e8e75d3.chunk.js": "/diffusion.me/static/js/3.0e8e75d3.chunk.js",
+    "static/js/3.0e8e75d3.chunk.js.map": "/diffusion.me/static/js/3.0e8e75d3.chunk.js.map",
+    "index.html": "/diffusion.me/index.html",
+    "static/css/main.c7ed2507.chunk.css.map": "/diffusion.me/static/css/main.c7ed2507.chunk.css.map",
+    "static/js/2.8352457c.chunk.js.LICENSE.txt": "/diffusion.me/static/js/2.8352457c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3c4f14e.js",
+    "static/js/runtime-main.2927e615.js",
     "static/js/2.8352457c.chunk.js",
-    "static/css/main.b9b85d45.chunk.css",
+    "static/css/main.c7ed2507.chunk.css",
     "static/js/main.3e550e00.chunk.js"
   ]
 }
