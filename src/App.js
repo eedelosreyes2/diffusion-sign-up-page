@@ -1,10 +1,13 @@
-import "./App.css";
-import HeroComponent from "./components/HeroComponent";
+// import "./App.css";
+import "./AppV2.css";
+// import HeroComponent from "./components/HeroComponent";
+import HeroComponentV2 from "./components/HeroComponentV2";
 
 function App() {
   return (
     <div className="App">
-      <HeroComponent />
+      {/* <HeroComponent /> */}
+      <HeroComponentV2 />
     </div>
   );
 }

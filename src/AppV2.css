@@ -1,0 +1,59 @@
+:root {
+  --blue: #00b1d2;
+}
+
+.App {
+  font-family: Aleo, serif;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90vw;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h4 {
+  font-weight: bold;
+  line-height: 32px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.subheading-container {
+  width: 80%;
+}
+
+.hero-container {
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.hero-copy {
+  width: 55%;
+}
+
+.button-container {
+  margin-top: 75px;
+}
+
+.asset-container {
+  align-items: center;
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
