@@ -6,6 +6,11 @@ export class HeroComponentV2 extends Component {
   render() {
     return (
       <div className="hero-container">
+        {this.props.width <= 810 ? (
+          <div className="asset-container">
+            <h2>diffusion</h2>
+          </div>
+        ) : null}
         <div className="hero-copy">
           <h1>It Pays To Have Good Taste</h1>
           <div className="subheading-container">
@@ -45,9 +50,11 @@ export class HeroComponentV2 extends Component {
             </Router>
           </div>
         </div>
-        <div className="asset-container">
-          <h2>diffusion</h2>
-        </div>
+        {this.props.width >= 810 ? (
+          <div className="asset-container">
+            <h2>diffusion</h2>
+          </div>
+        ) : null}
       </div>
     );
   }
