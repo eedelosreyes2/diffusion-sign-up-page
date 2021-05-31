@@ -15,7 +15,7 @@ export class HeroComponentV2 extends Component {
           <h1>It Pays To Have Good Taste</h1>
           <div className="subheading-container">
             <h4>
-              Join the space where creatives like you can share thier favorite
+              Join the space where creatives like you can share their favorite
               content while building and earning from an authentic community.
               One way to handle content overload is by personalizing inspiring
               content based on your niches.
