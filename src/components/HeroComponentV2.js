@@ -17,8 +17,8 @@ export class HeroComponentV2 extends Component {
             <h4>
               Join the space where creatives like you can share their favorite
               content while building and earning from an authentic community.
-              One way to handle content overload is by personalizing inspiring
-              content based on your niches.
+              Handle content overload by personalizing content in your niche as
+              moodboards.
             </h4>
           </div>
           <div className="button-container">
