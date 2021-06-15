@@ -1,75 +1,76 @@
 :root {
-  --blue: #00b1d2;
+	--blue: #00b1d2;
 }
 
 .App {
-  font-family: Aleo;
-  left: 0;
-  margin: auto;
-  right: 0;
-  text-align: center;
+	font-family: Aleo;
+	left: 0;
+	margin: auto;
+	right: 0;
+	text-align: center;
 }
 
 h1 {
-  display: block;
-  font-size: 40px;
-  font-weight: 900px;
+	display: block;
+	font-size: 40px;
+	font-weight: 900px;
 }
 
 h3 {
-  color: var(--blue);
-  font-size: 25px;
-  line-height: 30px;
-  padding-bottom: 50px;
+	color: var(--blue);
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 50px;
 }
 
 button {
-  background-color: var(--blue);
-  border: none;
-  border-radius: 15px;
-  color: white;
-  cursor: pointer;
-  font-family: Aleo;
-  font-size: 20px;
-  font-weight: bold;
-  outline: none;
+	background-color: var(--blue);
+	border: none;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+	font-family: Aleo;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	outline: none;
 }
 
 .hero {
-  margin: auto;
-  text-align: left;
-  width: 90vw;
+	margin: auto;
+	text-align: left;
+	width: 90vw;
 }
 
 @media only screen and (min-width: 992px) {
-  .hero {
-    width: 60vw;
-  }
+	.hero {
+		width: 60vw;
+	}
 }
 
 .logo-animated {
-  height: 100%;
-  width: 300px;
-  align-self: flex-end;
-  animation-duration: 2s;
-  animation-duration: 2s;
-  animation-iteration-count: 2;
-  margin: 100px auto 0 auto;
-  transform-origin: bottom;
+	height: 100%;
+	width: 300px;
+	align-self: flex-end;
+	animation-duration: 2s;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+	margin: 100px auto 0 auto;
+	transform-origin: bottom;
 }
 
 .bounce-1 {
-  animation-name: bounce-1;
-  animation-timing-function: linear;
+	animation-name: bounce-1;
+	animation-timing-function: linear;
 }
 @keyframes bounce-1 {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-50px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
