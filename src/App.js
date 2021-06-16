@@ -35,7 +35,7 @@ function App() {
 	const { width } = useWindowDimensions();
 
 	useEffect(() => {
-		ReactGa.initialize('G-DW2S9JDRSN');
+		ReactGa.initialize('UA-199567565-1');
 		ReactGa.pageview('/');
 	}, []);
 
